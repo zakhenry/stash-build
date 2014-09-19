@@ -3,11 +3,21 @@
 Node.js command line tool for automating posting local build processes to Atlassian's Stash
 
 ## Getting Started
-Install the module with: `npm install stash-build`
+* Install the tool with: `npm install stash-build`
+* Configure with `stash-build config`
+* Initialise a project with `stash-build init`
+* Run tool with `stash-build`
+* Get help at `stash-build --help`
+Output
+```
+Usage: stash-build [options]
 
-```javascript
-var stash_build = require('stash-build');
-stash_build.awesome(); // "awesome"
+  Options:
+
+    -h, --help     output usage information
+    -V, --version  output the version number
+    -v, --verbose  A value that can be increased
+    -f, --force    Force stash build, don't check git status
 ```
 
 ## Documentation
