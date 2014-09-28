@@ -1,7 +1,7 @@
 {
   "name": "stash-build",
   "description": "Node.js command line tool for automating posting local build processes to Atlassian's Stash",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/xiphiaz/stash-build",
   "author": {
     "name": "Zak Henry",
@@ -37,12 +37,13 @@
   },
   "keywords": [],
   "dependencies": {
+    "colors": "^0.6.2",
     "commander": "^2.3.0",
     "gitty": "^3.1.0",
+    "lodash": "^2.4.1",
     "path": "^0.4.9",
     "prompt": "^0.2.13",
     "q": "^1.0.1",
-    "request": "^2.42.0",
-    "colors": "^0.6.2"
+    "request": "^2.42.0"
   }
 }
