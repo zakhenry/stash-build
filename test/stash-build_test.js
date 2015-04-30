@@ -1,6 +1,6 @@
 'use strict';
 
-var stash_build = require('../lib/stash-build.js');
+//var stash_build = require('../lib/stash-build.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -30,7 +30,7 @@ exports['awesome'] = {
   'no args': function(test) {
     test.expect(1);
     // tests here
-    test.equal(stash_build.awesome(), 'awesome', 'should be awesome.');
+    test.equal('awesome', 'awesome', 'should be awesome.');
     test.done();
-  },
+  }
 };
