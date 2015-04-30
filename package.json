@@ -1,7 +1,7 @@
 {
   "name": "stash-build",
   "description": "Node.js command line tool for automating posting local build processes to Atlassian's Stash",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "homepage": "https://github.com/xiphiaz/stash-build",
   "author": {
     "name": "Zak Henry",
@@ -39,11 +39,14 @@
   "dependencies": {
     "colors": "0.6.2",
     "commander": "2.3.0",
-    "gitty": "3.2.0",
+    "gitty": "fourmation/gitty",
     "lodash": "2.4.1",
     "path": "0.4.9",
     "prompt": "0.2.13",
     "q": "1.0.1",
     "request": "2.42.0"
-  }
+  },
+  "notes": [
+    "When https://github.com/gordonwritescode/gitty/pull/48 is merged, switch `gitty` location to `3.2.(x)`"
+  ]
 }
