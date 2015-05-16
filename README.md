@@ -1,5 +1,7 @@
 # stash-build
 
+[![npm version](https://badge.fury.io/js/stash-build.svg)](http://badge.fury.io/js/stash-build)
+
 Node.js command line tool for automating posting local build processes to Atlassian's Stash
 
 ## Getting Started
